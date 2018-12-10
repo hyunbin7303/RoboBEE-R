@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class AllRoboBEEs {
-    private static List<RoboInfo> robo = new ArrayList<RoboInfo>();
+    public static List<RoboInfo> robo = new ArrayList<RoboInfo>();
     public int getTotalSize()
     {
         return robo.size();
@@ -18,7 +18,7 @@ public class RoboInfo {
     public int SearchingAreaEnd;
     public String DateTime;
     public boolean IsActive;
-    public String Status;
+    public int Status;
     public String secretToken;
 }
 
@@ -27,9 +27,10 @@ enum RoboStatus
     FIND(0),
     WAITING(1),
     SEARCHING(2),
-    MOVING(3),
+    SEARCHING_END(3),
     RETURNING(4),
-    ERROR(5);
+    EXIT(5),
+    ERROR(6);
     public final int Value;
     private RoboStatus(int value)
     {

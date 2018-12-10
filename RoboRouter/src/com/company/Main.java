@@ -31,17 +31,21 @@ public class Main
             return;
         }
         System.out.println("RECEIVED SECRET TOKEN VALUE = " + args[0]);
-       // logger.info("ROBO ROUTER START");
-
-
         Date date = new Date();
+
+        // Need to receive this information from GUI.
+        // Default mission setting
+
+
         RoboMission roboMission = new RoboMission();
+        roboMission.numberOfBees = 5;
         roboMission.Description = "FIND CHILD";
         roboMission.SearchAreaStart = 1;
         roboMission.SearchAreaEnd = 100;
         roboMission.SearchFindNew = roboMission.SearchAreaStart;
-        roboMission.SecretToken = "LEAGUE OF LEGENDS";
+        roboMission.SecretToken = "LEAGUE OF Lasdf";
         roboMission.DateTime = date.toString();
+        roboMission.Status = RoboStatus.SEARCHING.Value;
 
         RoboOP_Singleton roboOP_singleton = RoboOP_Singleton.getInstance();
         roboOP_singleton.Info = "ROBOBEE ROUTER OPERATION SINGLETON TESTING";
@@ -49,16 +53,91 @@ public class Main
 
 
         // Creating TCP IP Connection for connecting to server.
-        RouterServer routerServer = new RouterServer("127.0.0.1", 5000);
+        RouterServer routerServer = new RouterServer("127.0.0.1", 5500);
         // Creating TCP IP Connection for connecting to main Infrastructure.
-        RouterClient routerClient = new RouterClient("127.0.0.1", 4000);
+        RouterClient routerClient = new RouterClient("10.113.21.164", 3000);
         // Create while loof for checking.
-        if(!routerServer.Running() && !routerClient.Running())
-        {
-            System.out.println("RUNNING FAIL.");
-            // ERROR LOG NEED
-        }
+
+        Runnable run1 = new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    System.out.println("CLIENT RUN");
+                    routerClient.Start();
+
+                }catch(IOException ioe)
+                {
+                    System.out.println("CLIENT ERROR");
+                }
+            }
+        };
+
+
+
+        Runnable run2 = new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    System.out.println("SERVER RUN ");
+                    routerServer.Running();
+
+                }catch(IOException ioe)
+                {
+                    System.out.println("IOE");
+                }
+            }
+        };
+ //       run1.run();
+        run2.run();
+
         System.out.printf("ROBO ROUTER EXIT.");
         //TODO LOG
     }
 }
+
+
+class RouterServerTest implements Runnable
+{
+    // Creating TCP IP Connection for connecting to server.
+    RouterServer routerServer;
+    public RouterServerTest(){
+        try {
+            routerServer = new RouterServer("127.0.0.1", 5000);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    @Override
+    public void run() {
+        try {
+
+            routerServer.GenerateInfo();
+            if(!routerServer.Running())
+            {
+                System.out.println("RUNNNING");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+class RouterClientTest implements Runnable
+{
+    RouterClient routerClient;
+    public RouterClientTest()
+    {
+        routerClient = new RouterClient("10.113.21.164", 2000);
+    }
+    @Override
+    public void run() {
+        try {
+            if(!routerClient.Start())
+            {
+                System.out.println("ERROR RUNNING");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+

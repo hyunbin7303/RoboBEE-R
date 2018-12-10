@@ -1,3 +1,11 @@
+/*
+FILE            : Robobee.java
+PROGRAMMER      : Kevin Park
+PROG            : NAD - Final
+DATE            : 2018 - 12 - 10
+DESCRIPTION     : This is the robobee class for this program.
+ */
+
 package com.company;
 
 public class RoboBee {

@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7823878-2598-46d0-ac7f-f937231e1d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RoboLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/RoboBee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/RoboStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboMission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboOP_Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/GenerateData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RoboBee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RoboBee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RoboStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RoboStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboRouter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboRouter/RoboRouter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/RoboRouter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboMission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboOP_Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboOP_Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,22 +59,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8590" />
+          <entry key="java" value="9741" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8590" />
+          <entry key="JAVA" value="9741" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -90,9 +87,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1143">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="-363">
+              <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
               <folding>
+                <element signature="e#0#8227#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -102,8 +100,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="200">
               <caret line="833" selection-start-line="833" selection-end-line="833" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/jdk.net/jdk/net/ExtendedSocketOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
             </state>
           </provider>
         </entry>
@@ -111,9 +118,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/RoboStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="312">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
+                <element signature="e#0#556#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
               </folding>
@@ -122,46 +130,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/RoboBee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/jdk.net/jdk/net/ExtendedSocketOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/DataInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4845">
-              <caret line="348" column="7" selection-start-line="348" selection-start-column="7" selection-end-line="348" selection-end-column="7" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#278#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,6 +160,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CHECK</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -201,7 +181,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,7 +220,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544305297603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544465868249" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -283,6 +263,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539009264397</updated>
     </task>
+    <task id="LOCAL-00001" summary="pushh allllll">
+      <created>1544305370807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544305370807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -311,7 +299,7 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32819074" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.21927711" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.44096386" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3433735" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -329,28 +317,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pushh allllll" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushh allllll" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/jdk.net/jdk/net/ExtendedSocketOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/DataInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4845">
-          <caret line="348" column="7" selection-start-line="348" selection-start-column="7" selection-end-line="348" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RoboLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -360,23 +343,52 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="226">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="348" column="7" selection-start-line="348" selection-start-column="7" selection-end-line="348" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="769" selection-start-line="769" selection-end-line="769" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="200">
           <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/jdk.net/jdk/net/ExtendedSocketOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/RoboStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
+            <element signature="e#0#556#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
           </folding>
@@ -385,16 +397,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/RoboBee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1143">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="-363">
+          <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
           <folding>
+            <element signature="e#0#8227#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
