@@ -99,13 +99,14 @@ public class RouterClient {
 
                 try{
                     String msg = "";
-                    TimeUnit.SECONDS.sleep(7); // Sending Information every 7 seconds.
+                    TimeUnit.SECONDS.sleep(10); // Sending Information every 10 seconds.
 
                     // Sending Router information
                     String readLines = readFileAsString("RoboRouters.txt");
                     System.out.printf("[CLIENT SIDE] READ RoboRouter.txt File : " + readLines + "\n");
                     outToMain.writeUTF(readLines);
-
+                    String readLines2 = readFileAsString("AllRoboBEEsInfo.log");
+                    outToMain.writeUTF((readLines2));
                 }
 
                 // Error Handling

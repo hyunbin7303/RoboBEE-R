@@ -55,7 +55,7 @@ public class Main
         // Creating TCP IP Connection for connecting to server.
         RouterServer routerServer = new RouterServer("127.0.0.1", 5500);
         // Creating TCP IP Connection for connecting to main Infrastructure.
-        RouterClient routerClient = new RouterClient("10.113.21.164", 3000);
+        RouterClient routerClient = new RouterClient("10.113.21.165", 3300);
         // Create while loof for checking.
 
         Runnable run1 = new Runnable() {
@@ -87,7 +87,7 @@ public class Main
                 }
             }
         };
- //       run1.run();
+        run1.run();
         run2.run();
 
         System.out.printf("ROBO ROUTER EXIT.");

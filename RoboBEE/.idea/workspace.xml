@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7823878-2598-46d0-ac7f-f937231e1d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/GenerateData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RoboBee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RoboBee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RoboStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RoboStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboRouter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboOP_Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RoboOP_Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboRouter/src/com/company/RouterServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
-              <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+            <state relative-caret-position="61">
+              <caret line="121" column="73" lean-forward="true" selection-start-line="121" selection-start-column="73" selection-end-line="121" selection-end-column="73" />
               <folding>
                 <element signature="e#0#8227#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -220,7 +211,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544466371890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544472995657" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -270,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544305370807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pushh allllll">
+      <created>1544466383458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544466383458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -286,7 +284,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13876967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13876967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +297,7 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32819074" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.44096386" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.7939759" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3433735" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -329,6 +327,12 @@
           <line>98</line>
           <properties />
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -407,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+        <state relative-caret-position="61">
+          <caret line="121" column="73" lean-forward="true" selection-start-line="121" selection-start-column="73" selection-end-line="121" selection-end-column="73" />
           <folding>
             <element signature="e#0#8227#0" expanded="true" />
             <element signature="imports" expanded="true" />
