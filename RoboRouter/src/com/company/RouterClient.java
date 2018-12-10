@@ -148,7 +148,7 @@ public class RouterClient {
                         // got information from the main building.
                         List<String> MsgEach = Arrays.asList(msg.split("\\|"));
                         System.out.println("RECEVIED MESSAGE FROM MAIN BUILDING : " + msg + "\n");
-                        
+
                         // Parsing Lines.
 
                     }
